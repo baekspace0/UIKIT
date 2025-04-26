@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/UIKIT_dark.png" alt="baekspace0" width="100%" />
+  <img src="assets/uikit_logo.png" alt="baekspace0" width="30%" />
 </p>
 
 # UIKIT
