@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/UIKIT_dark.png" alt="baekspace0" width="100%" />
+</p>
+
 # UIKIT
 ### 🎓대학교 맞춤형 툴킷
 ###### ( University Integrated Toolkit a.k.a. UIKIT )
