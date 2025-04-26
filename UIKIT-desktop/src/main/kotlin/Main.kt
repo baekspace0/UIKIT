@@ -9,7 +9,9 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
+import androidx.compose.ui.window.WindowState
 import androidx.compose.ui.window.application
 
 @Composable
@@ -37,7 +39,12 @@ fun App() {
 }
 
 fun main() = application {
-    Window(onCloseRequest = ::exitApplication, title = "UIKIT Desktop") {
+    Window(
+        onCloseRequest = ::exitApplication,
+        title = "UIKIT Desktop",
+        state = WindowState(width = 1920.dp, height = 1080.dp),
+        resizable = true
+    ) {
         App()
     }
 }
